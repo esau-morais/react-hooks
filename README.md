@@ -63,7 +63,7 @@
 ### Custom Hooks
 
 <div align="center">
-  <img src="./public/readme/soon.png" alt="Custom Hooks" width="100%" />
+  <img src="./public/soon.png" alt="Custom Hooks" width="100%" />
 </div>
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-custom.html)
