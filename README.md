@@ -6,49 +6,65 @@
 
 ### useState
 
-![](https://github.com/esau-morais/React-Hooks/blob/master/public/readme/useState.png)
+<div align="center">
+  <img src="./public/readme/useState.png" alt="useState" width="100%" />
+</div>
 
 [More about useState Hook](https://reactjs.org/docs/hooks-state.html)
 
 ### useEffect
 
-![](https://github.com/esau-morais/React-Hooks/blob/master/public/readme/useEffect.png)
+<div align="center">
+  <img src="./public/readme/useEffect.png" alt="useEffect" width="100%" />
+</div>
 
 [More about useEffect Hook](https://reactjs.org/docs/hooks-effect.html)
 
 ### useContext
 
-![](https://github.com/esau-morais/React-Hooks/blob/master/public/readme/soon.png)
+<div align="center">
+  <img src="./public/readme/soon.png" alt="useContext" width="100%" />
+</div>
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
 ### useReducer
 
-![](https://github.com/esau-morais/React-Hooks/blob/master/public/readme/soon.png)
+<div align="center">
+  <img src="./public/readme/soon.png" alt="useReducer" width="100%" />
+</div>
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
 ### useCallback
 
-![](https://github.com/esau-morais/React-Hooks/blob/master/public/readme/soon.png)
+<div align="center">
+  <img src="./public/readme/soon.png" alt="useCallback" width="100%" />
+</div>
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usecallback)
 
 ### useMemo
 
-![](https://github.com/esau-morais/React-Hooks/blob/master/public/readme/soon.png)
+<div align="center">
+  <img src="./public/readme/soon.png" alt="useMemo" width="100%" />
+</div>
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usememo)
 
 ### useRef
 
-![](https://github.com/esau-morais/React-Hooks/blob/master/public/readme/soon.png)
+<div align="center">
+  <img src="./public/readme/soon.png" alt="useRef" width="100%" />
+</div>
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#useref)
 
 ### Custom Hooks
 
-![](https://github.com/esau-morais/React-Hooks/blob/master/public/readme/soon.png)
+<div align="center">
+  <img src="./public/readme/soon.png" alt="Custom Hooks" width="100%" />
+</div>
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-custom.html)
 
