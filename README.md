@@ -34,7 +34,7 @@
   <img src="./public/soon.png" alt="useReducer" width="100%" />
 </div>
 
-[More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usereducer)
+[More about useReducer Hook](https://reactjs.org/docs/hooks-reference.html#usereducer)
 
 ### useCallback
 
@@ -42,7 +42,7 @@
   <img src="./public/soon.png" alt="useCallback" width="100%" />
 </div>
 
-[More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usecallback)
+[More about useCallback Hook](https://reactjs.org/docs/hooks-reference.html#usecallback)
 
 ### useMemo
 
@@ -50,7 +50,7 @@
   <img src="./public/soon.png" alt="useMemo" width="100%" />
 </div>
 
-[More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usememo)
+[More about useMemo Hook](https://reactjs.org/docs/hooks-reference.html#usememo)
 
 ### useRef
 
@@ -58,7 +58,7 @@
   <img src="./public/soon.png" alt="useRef" width="100%" />
 </div>
 
-[More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#useref)
+[More about useRef Hook](https://reactjs.org/docs/hooks-reference.html#useref)
 
 ### Custom Hooks
 
@@ -66,7 +66,7 @@
   <img src="./public/soon.png" alt="Custom Hooks" width="100%" />
 </div>
 
-[More about useContext Hook](https://reactjs.org/docs/hooks-custom.html)
+[More about Custom Hooks](https://reactjs.org/docs/hooks-custom.html)
 
 ---
 
