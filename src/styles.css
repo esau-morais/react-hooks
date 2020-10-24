@@ -16,8 +16,11 @@ body,
 html,
 #root {
 	overflow-x: hidden;
-	text-align: start;
 	width: 100%;
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center
 }
 
 h1,
@@ -40,12 +43,17 @@ button {
 	margin: 0.4rem 0.4rem;
 	padding: 1rem 1.2rem;
 
-	width: 80%;
+	width: 30%;
+  align-self: center;
 
 	background-color: #ededed;
 
 	border: none;
 	border-radius: 5px;
+}
+
+button {
+  width: 20%
 }
 
 @media screen and (max-width: 763px) {

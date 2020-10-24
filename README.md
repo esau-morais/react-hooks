@@ -1,6 +1,6 @@
 # React Hooks
 
-![](https://miro.medium.com/max/1000/1*12rLQ2fkPvG76qUF8xH6OQ.png)
+![React + Hooks](https://miro.medium.com/max/1000/1*12rLQ2fkPvG76qUF8xH6OQ.png)
 
 ## Which are the most important React Hooks?
 
@@ -23,7 +23,7 @@
 ### useContext
 
 <div align="center">
-  <img src="./public/soon.png" alt="useContext" width="100%" />
+  <img src="./public/useContext.png" alt="useContext" width="100%" />
 </div>
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usecontext)
