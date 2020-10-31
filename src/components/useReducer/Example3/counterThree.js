@@ -22,7 +22,7 @@ function CounterThree() {
 
 	return (
 		<>
-			<h3>1st Counter {count}</h3>
+			<h3>1st Counter {count} (multiple useReducers)</h3>
 			{/* onClick, if the dispatch receives a value, it will show the case function */}
 			{/* Incrementer, decrementer and reseter 1 */}
 			<button onClick={() => dispatch("increment")}>Increment</button>

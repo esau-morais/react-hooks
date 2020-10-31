@@ -9,7 +9,7 @@ function UseContext() {
 	return (
 		<>
 			<br />
-			<h3>useContext</h3>
+			<h2>useContext</h2>
 			<br />
 			<UserContext.Provider value={"@esau_morais"}>
 				<ChannelContext.Provider value={"BTC2020"}>

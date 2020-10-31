@@ -21,7 +21,7 @@ function CounterOne() {
 
 	return (
 		<>
-			<h3>Counter {count}</h3>
+			<h3>Counter {count} (simple state & action)</h3>
 			{/* onClick, if the dispatch receives a value, it will show the case function */}
 			<button onClick={() => dispatch("increment")}>Increment</button>
 			<button onClick={() => dispatch("decrement")}>Decrement</button>

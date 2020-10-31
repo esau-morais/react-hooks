@@ -6,7 +6,7 @@ import CounterThree from "./Example3/counterThree";
 function UseReducer() {
 	return (
 		<>
-			<h3>useReducer</h3>
+			<h2>useReducer</h2>
 			<br />
 			<CounterOne />
 			<CounterTwo />

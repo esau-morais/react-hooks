@@ -9,7 +9,7 @@ import DataFetching from "./Example5/dataFetching";
 function UseState() {
 	return (
 		<>
-			<h3>useEffect</h3>
+			<h2>useEffect</h2>
 			<br />
 			<HookCounter />
 			<HookMouse />

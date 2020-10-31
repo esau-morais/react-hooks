@@ -27,9 +27,6 @@ function HookCounterThree() {
 						})
 					}
 				/>
-				<br />
-				<h3>{name.firstName}</h3>
-				<br />
 				<input
 					type="text"
 					placeholder="Last name"
@@ -41,8 +38,8 @@ function HookCounterThree() {
 						})
 					}
 				/>
+        <h3>{name.firstName} {name.lastName}</h3>
 				<br />
-				<h3>{name.lastName}</h3>
 			</form>
 			<hr />
 		</>

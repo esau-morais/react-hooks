@@ -8,7 +8,7 @@ import HookItemsFour from "./Example4/hookItemsFour";
 function UseState() {
 	return (
 		<>
-			<h3>useState</h3>
+			<h2>useState</h2>
 			<HookCounter />
 			<HookCounterTwo />
 			<HookInputThree />

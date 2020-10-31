@@ -13,17 +13,17 @@ const reducer = (state, action) => {
 				...state,
 				firstCounter: state.firstCounter + action.value
 			};
+    case "increment2":
+      return {
+        ...state,
+        secondCounter: state.secondCounter + action.value
+      };
 		case "decrement":
 			return {
 				...state,
 				firstCounter: state.firstCounter - action.value
 			};
 		case "decrement2":
-			return {
-				...state,
-				secondCounter: state.secondCounter - action.value
-			};
-		case "decrement3":
 			return {
 				...state,
 				secondCounter: state.secondCounter - action.value
@@ -40,7 +40,7 @@ function CounterTwo() {
 
 	return (
 		<>
-			<h3>1st Counter {count.firstCounter}</h3>
+			<h3>1st Counter {count.firstCounter} (complex state & action)</h3>
 			{/* onClick, if the dispatch receives a value, it will show the case function */}
 			{/* Increment and decrement 1 */}
 			<button onClick={() => dispatch({ type: "increment", value: 1 })}>
@@ -59,8 +59,6 @@ function CounterTwo() {
 
 			<button onClick={() => dispatch({ type: "reset" })}>Reset both</button>
 
-			<br />
-			<hr />
 			<br />
 
 			{/* Another incrementer and decrementer */}
