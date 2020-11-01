@@ -1,21 +1,22 @@
-# Security Policy
+# Security policy
 
-## Supported Versions
+## Reporting on Vulnerability
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+If you find a security bug in this repository, follow the responsible disclosure principles and these guidelines:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+- Do not send a normal issue (issue) or pull request in our public repository, instead report it through our Bug Bounty or directly to esaumorais7@gmail.com (if necessary, we encrypt it)
 
-## Reporting a Vulnerability
+- We will review your submission and be able to follow up for additional details
+If you have a patch, we will review it and approve it privately; once approved for launch, you can submit it as a pull request publicly at our repos (we give credit when credit is due)
 
-Use this section to tell people how to report a vulnerability.
+- We will keep you informed during our investigation, feel free to check for a status update
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- We will release the fix and publicly disclose the issue as soon as possible, but we want to ensure due diligence before launch
+
+- Do not post a blog or post about the security issue until we’ve updated the public repository so that other downstream users have the opportunity to fix
+
+## Contact
+
+[![Linkedin URL](https://img.shields.io/twitter/url?color=3397d8&label=in/emmorais&logo=linkedin&style=for-the-badge&url=https%3A%2F%2Fwww.linkedin.com/in/emmorais)](https://www.linkedin.com/in/emmorais)
+[![Instagram URL](https://img.shields.io/twitter/url?color=3397d8&label=esau_morais&logo=instagram&logoColor=%23FFF&style=for-the-badge&url=https%3A%2F%2Fwww.instagram.com/esau_morais)](https://www.instagram.com/esau_morais)
+[![Twitter URL](https://img.shields.io/twitter/url?color=3397d8&label=esau_morais&logo=twitter&logoColor=%23FFF&style=for-the-badge&url=https%3A%2F%2Fwww.twitter.com/esau_morais)](https://www.twitter.com/esau_morais)
