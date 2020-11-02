@@ -74,7 +74,7 @@
 ### useReducer
 
 <div align="center">
-  <img src="./public/soon.png" alt="useReducer" width="100%" />
+  <img src="./public/useReducer.png" alt="useReducer" width="100%" />
 </div>
 
 [More about useReducer Hook](https://reactjs.org/docs/hooks-reference.html#usereducer)
