@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function HookCounterTwo() {
 	const initialCount = 0;

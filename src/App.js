@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./styles.css";
 import UseState from "./components/useState";
 import UseEffect from "./components/useEffect";

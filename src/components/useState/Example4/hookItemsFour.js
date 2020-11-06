@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function HookItemsFour() {
 	const [items, setItems] = useState([]);

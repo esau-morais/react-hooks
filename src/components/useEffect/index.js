@@ -1,5 +1,3 @@
-import React from "react";
-
 import HookCounter from "./Example1/hookCounter";
 import HookMouse from "./Example2/hookMouse";
 import MouseContainer from "./Example3/mouseContainer";

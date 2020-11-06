@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { UserContext, ChannelContext } from "../index";
 
 function ContextConsumer() {

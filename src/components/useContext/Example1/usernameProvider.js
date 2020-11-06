@@ -1,4 +1,3 @@
-import React from "react";
 import { UserContext, ChannelContext } from "../index";
 
 function UsernameProvider() {

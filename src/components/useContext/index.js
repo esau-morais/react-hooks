@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import { createContext } from "react";
 import UsernameProvider from "./Example1/usernameProvider";
 import ContextConsumer from "./Example2/consumer";
 
