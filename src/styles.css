@@ -20,7 +20,8 @@ html,
 
   display: flex;
   flex-direction: column; 
-  align-items: center
+  align-items: center;
+  text-align: center
 }
 
 h1,
@@ -53,7 +54,8 @@ button {
 }
 
 button {
-  width: 20%
+  width: 20%;
+  cursor: pointer
 }
 
 @media screen and (max-width: 763px) {

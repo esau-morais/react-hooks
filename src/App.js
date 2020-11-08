@@ -3,6 +3,7 @@ import UseState from "./components/useState";
 import UseEffect from "./components/useEffect";
 import UseContext from "./components/useContext";
 import UseReducer from "./components/useReducer";
+import UseCallback from "./components/useCallback";
 
 export default function App() {
 	return (
@@ -13,6 +14,7 @@ export default function App() {
 			<UseEffect />
 			<UseContext />
 			<UseReducer />
-		</>
+      <UseCallback />
+ 		</>
 	);
 }
