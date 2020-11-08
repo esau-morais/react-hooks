@@ -14,6 +14,25 @@
 - [useRef](#useref)
 - [Custom hooks](#custom-hooks)
 
+## Folder structure
+
+```
+React-Hooks
+│   ...
+│
+└───src
+│   │   App.js
+│   │   index.js
+│   │
+│   └───components
+│       │   
+│       │   
+│       └───(separated hooks folder)
+│       │   │
+│       │   │
+│       │   └───(n examples by folder)
+```
+
 ## How do I start?
 
 1. Fork this project
@@ -44,6 +63,7 @@
 
     `yarn start` (if you use `yarn`)
 
+_You can also [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox_
 
 ## Which are the most important React Hooks?
 
@@ -55,6 +75,8 @@
 
 [More about useState Hook](https://reactjs.org/docs/hooks-state.html)
 
+[🔝 Back to Top](#table-of-content)
+
 ### useEffect
 
 <div align="center">
@@ -62,6 +84,8 @@
 </div>
 
 [More about useEffect Hook](https://reactjs.org/docs/hooks-effect.html)
+
+[🔝 Back to Top](#table-of-content)
 
 ### useContext
 
@@ -71,6 +95,8 @@
 
 [More about useContext Hook](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
+[🔝 Back to Top](#table-of-content)
+
 ### useReducer
 
 <div align="center">
@@ -78,6 +104,8 @@
 </div>
 
 [More about useReducer Hook](https://reactjs.org/docs/hooks-reference.html#usereducer)
+
+[🔝 Back to Top](#table-of-content)
 
 ### useCallback
 
@@ -87,6 +115,8 @@
 
 [More about useCallback Hook](https://reactjs.org/docs/hooks-reference.html#usecallback)
 
+[🔝 Back to Top](#table-of-content)
+
 ### useMemo
 
 <div align="center">
@@ -94,6 +124,8 @@
 </div>
 
 [More about useMemo Hook](https://reactjs.org/docs/hooks-reference.html#usememo)
+
+[🔝 Back to Top](#table-of-content)
 
 ### useRef
 
@@ -103,6 +135,8 @@
 
 [More about useRef Hook](https://reactjs.org/docs/hooks-reference.html#useref)
 
+[🔝 Back to Top](#table-of-content)
+
 ### Custom Hooks
 
 <div align="center">
@@ -110,6 +144,8 @@
 </div>
 
 [More about Custom Hooks](https://reactjs.org/docs/hooks-custom.html)
+
+[🔝 Back to Top](#table-of-content)
 
 ---
 
