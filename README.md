@@ -110,7 +110,7 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 ### useCallback
 
 <div align="center">
-  <img src="./public/soon.png" alt="useCallback" width="100%" />
+  <img src="./public/useCallback.png" alt="useCallback" width="100%" />
 </div>
 
 [More about useCallback Hook](https://reactjs.org/docs/hooks-reference.html#usecallback)
