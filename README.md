@@ -120,7 +120,7 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 ### useMemo
 
 <div align="center">
-  <img src="./public/soon.png" alt="useMemo" width="100%" />
+  <img src="./public/useMemo.png" alt="useMemo" width="100%" />
 </div>
 
 [More about useMemo Hook](https://reactjs.org/docs/hooks-reference.html#usememo)

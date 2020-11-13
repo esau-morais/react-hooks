@@ -6,6 +6,9 @@ function UseCallback() {
       <h2>useCallback</h2>
       <br />
       <Example />
+
+      <br />
+      <hr />
     </>
   );
 }
