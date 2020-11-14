@@ -7,6 +7,9 @@ function UseMemo() {
       <h2>useMemo</h2>
       <br />
       <Example />
+
+      <br />
+      <hr />
     </>
   );
 }

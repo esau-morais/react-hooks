@@ -5,6 +5,7 @@ import UseContext from "./components/useContext";
 import UseReducer from "./components/useReducer";
 import UseCallback from "./components/useCallback";
 import UseMemo from "./components/useMemo";
+import UseRef from "./components/useRef";
 
 export default function App() {
 	return (
@@ -17,6 +18,7 @@ export default function App() {
 			<UseReducer />
       <UseCallback />
       <UseMemo />
+      <UseRef />
  		</>
 	);
 }

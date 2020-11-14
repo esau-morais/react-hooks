@@ -130,7 +130,7 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 ### useRef
 
 <div align="center">
-  <img src="./public/soon.png" alt="useRef" width="100%" />
+  <img src="./public/useRef.png" alt="useRef" width="100%" />
 </div>
 
 [More about useRef Hook](https://reactjs.org/docs/hooks-reference.html#useref)
