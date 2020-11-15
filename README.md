@@ -35,39 +35,35 @@ React-Hooks
 
 ## How do I start?
 
-1. Fork this project
+You can [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
 
-![Forking the project](https://camo.githubusercontent.com/6f03010c651d060f8b7cfc17da7098c1757c4ead/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f666f726b2e706e67)
+## Hooks rules
 
-2. Clone the forked repository
+:warning: Before you start, you need to always remember these rules when you call a React Hook:
 
-    `git clone https://github.com/user/react-redux` (if you use `git`)
+- _"Only call Hooks at the top level"_
 
-    or 
+  Don't call Hooks inside loops, conditions, or nested functions
 
-    `gh repo clone https://github.com/user/react-redux` (if you use `gh` cli)
+- _"Only call Hooks from React functions"_
 
-3. Install the dependencies
+  Call them from within React functional components and not just any regular JavaScript function
 
-    `npm install` (if you use `npm`)
-
-    or
-
-    `yarn` (if you use   `yarn`)
-
-4. Start the project 
-
-    `npm start` (if you `npm`)
-
-    or
-
-    `yarn start` (if you use `yarn`)
-
-_You can also [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox_
-
-## Which are the most important React Hooks?
+## Most important React Hooks
 
 ### useState
+
+#### Quick summary
+
+- The `useState` hook lets you add state to functional components
+- In classes, the state is always an object
+- With the useState hook, the state doesn't have to be an object
+- The `useState` hook returns an array with 2 elements
+  - The first element is the current value of the state, and the second is a state setter function
+- New state value depends on the previous state value? You can pass a function to setter function
+- When dealing with objects or arrays, always make sure to spread your state variable and then call the setter function
+
+To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
 
 <div align="center">
   <img src="./public/useState.png" alt="useState" width="100%" />
@@ -79,6 +75,13 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 
 ### useEffect
 
+#### Quick summary
+
+- The `Effect` Hook lets you perform side effects in functional components
+- It is a close replacement for `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`
+
+To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+
 <div align="center">
   <img src="./public/useEffect.png" alt="useEffect" width="100%" />
 </div>
@@ -88,6 +91,12 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 [🔝 Back to Top](#table-of-content)
 
 ### useContext
+
+#### Quick summary
+
+- `Context` provides a way to pass data through the component tree without having to pass props down manually at every level
+
+To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
 
 <div align="center">
   <img src="./public/useContext.png" alt="useContext" width="100%" />
@@ -99,6 +108,24 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 
 ### useReducer
 
+#### Quick summary
+
+- `useReducer` is a Hook that is used for state management
+- It is an alternative to `useState`
+- `useReducer` is related to reducer functions
+
+#### useState vs useReducer
+
+| Scenario   |      useState      |  useReducer |
+|------------|--------------------|-------------|
+| Type of state |  Number, String, Boolean | Object or Array |
+| Number of state transitions | One or two | Too many |
+| Related state transitions? | No | Yes |
+| Business logic | No business logic | Complex business logic |
+| Local vs Global | Local | Global |
+
+To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+
 <div align="center">
   <img src="./public/useReducer.png" alt="useReducer" width="100%" />
 </div>
@@ -108,6 +135,13 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 [🔝 Back to Top](#table-of-content)
 
 ### useCallback
+
+#### Quick summary
+
+- `useCallback` is a Hook that will return a memoized version of the callback function that only changes if one of the dependencies has changed
+- It is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders
+
+To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
 
 <div align="center">
   <img src="./public/useCallback.png" alt="useCallback" width="100%" />
@@ -129,6 +163,8 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 
 ### useRef
 
+To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+
 <div align="center">
   <img src="./public/useRef.png" alt="useRef" width="100%" />
 </div>
@@ -138,6 +174,14 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 [🔝 Back to Top](#table-of-content)
 
 ### Custom Hooks
+
+#### Quick summary
+
+- A custom Hook is basically a JavaScript function whose name starts with `use`
+- A custom Hook can also call other Hooks if required
+- Share logic → Alternative to HOCs and Render Props
+
+To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
 
 <div align="center">
   <img src="./public/useInput.png" alt="Custom Hooks" width="100%" />
