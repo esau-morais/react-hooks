@@ -35,7 +35,42 @@ React-Hooks
 
 ## How do I start?
 
-You can [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+You can interact with the code forking the repository
+
+
+1. Fork this project
+
+![Forking the project](https://camo.githubusercontent.com/6f03010c651d060f8b7cfc17da7098c1757c4ead/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f666f726b2e706e67)
+
+2. Clone the forked repository
+
+    `git clone https://github.com/user/React-Hooks` (if you use `git`)
+
+    or
+
+    `gh repo clone https://github.com/user/React-Hooks` (if you use `gh` cli)
+
+3. Install the dependencies
+
+    `npm install` (if you use `npm`)
+
+    or
+
+    `yarn` (if you use   `yarn`)
+
+4. Start the project
+
+    `npm start` (if you `npm`)
+
+    or
+
+    `yarn start` (if you use `yarn`)
+
+:warning: To make your learning process better, follow these steps:
+
+- See the quick summary of each Hook
+- See the examples
+- Interact with the code and try different ways/examples
 
 ## Hooks rules
 
@@ -63,7 +98,7 @@ You can [interact with the code](https://codesandbox.io/s/github/esau-morais/Rea
 - New state value depends on the previous state value? You can pass a function to setter function
 - When dealing with objects or arrays, always make sure to spread your state variable and then call the setter function
 
-To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+To understand better, see the example below or interact with the code forking the project
 
 <div align="center">
   <img src="./public/useState.png" alt="useState" width="100%" />
@@ -80,7 +115,7 @@ To understand better, see the example below or [interact with the code](https://
 - The `Effect` Hook lets you perform side effects in functional components
 - It is a close replacement for `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`
 
-To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+To understand better, see the example below or interact with the code forking the project
 
 <div align="center">
   <img src="./public/useEffect.png" alt="useEffect" width="100%" />
@@ -96,7 +131,7 @@ To understand better, see the example below or [interact with the code](https://
 
 - `Context` provides a way to pass data through the component tree without having to pass props down manually at every level
 
-To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+To understand better, see the example below or interact with the code forking the project
 
 <div align="center">
   <img src="./public/useContext.png" alt="useContext" width="100%" />
@@ -124,7 +159,7 @@ To understand better, see the example below or [interact with the code](https://
 | Business logic | No business logic | Complex business logic |
 | Local vs Global | Local | Global |
 
-To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+To understand better, see the example below or interact with the code forking the project
 
 <div align="center">
   <img src="./public/useReducer.png" alt="useReducer" width="100%" />
@@ -141,7 +176,7 @@ To understand better, see the example below or [interact with the code](https://
 - `useCallback` is a Hook that will return a memoized version of the callback function that only changes if one of the dependencies has changed
 - It is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders
 
-To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+To understand better, see the example below or interact with the code forking the project
 
 <div align="center">
   <img src="./public/useCallback.png" alt="useCallback" width="100%" />
@@ -163,7 +198,7 @@ To understand better, see the example below or [interact with the code](https://
 
 ### useRef
 
-To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+To understand better, see the example below or interact with the code forking the project
 
 <div align="center">
   <img src="./public/useRef.png" alt="useRef" width="100%" />
@@ -181,7 +216,7 @@ To understand better, see the example below or [interact with the code](https://
 - A custom Hook can also call other Hooks if required
 - Share logic → Alternative to HOCs and Render Props
 
-To understand better, see the example below or [interact with the code](https://codesandbox.io/s/github/esau-morais/React-Hooks) using codesandbox
+To understand better, see the example below or interact with the code forking the project
 
 <div align="center">
   <img src="./public/useInput.png" alt="Custom Hooks" width="100%" />
