@@ -5,7 +5,6 @@
 	margin: 0 0;
 	padding: 0 0;
 
-	outline: none;
 	-webkit-tap-highlight-color: transparent;
 
 	box-sizing: border-box;
@@ -56,6 +55,11 @@ button {
 button {
   width: 20%;
   cursor: pointer
+}
+
+input:focus, 
+button:focus {
+  outline: 1px dashed blue;
 }
 
 @media screen and (max-width: 763px) {

@@ -140,7 +140,11 @@ _You can also [interact with the code](https://codesandbox.io/s/github/esau-mora
 ### Custom Hooks
 
 <div align="center">
-  <img src="./public/soon.png" alt="Custom Hooks" width="100%" />
+  <img src="./public/useInput.png" alt="Custom Hooks" width="100%" />
+</div>
+
+<div align="center">
+  <img src="./public/customHooksExample.png" alt="Custom Hooks" width="100%" />
 </div>
 
 [More about Custom Hooks](https://reactjs.org/docs/hooks-custom.html)

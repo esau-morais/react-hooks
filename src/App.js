@@ -6,6 +6,7 @@ import UseReducer from "./components/useReducer";
 import UseCallback from "./components/useCallback";
 import UseMemo from "./components/useMemo";
 import UseRef from "./components/useRef";
+import CustomHooks from "./components/customHooks";
 
 export default function App() {
 	return (
@@ -19,6 +20,7 @@ export default function App() {
       <UseCallback />
       <UseMemo />
       <UseRef />
+      <CustomHooks />
  		</>
 	);
 }
