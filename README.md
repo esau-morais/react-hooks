@@ -4,6 +4,8 @@
 
 ## Table of Content
 
+- [About](#about)
+- [Folder structure](#folder-structure)
 - [Installation](#how-do-i-start)
 - [useState](#usestate)
 - [useEffect](#useeffect)
@@ -14,6 +16,10 @@
 - [useRef](#useref)
 - [Custom hooks](#custom-hooks)
 
+## About
+
+A couple of months ago, I started to review every single subject in (Vanilla) JavaScript and React. So, this repository highlights some of the **most important concepts** I've learned about React Hooks. Below you'll find **examples**, a **quick summary** to understand how it works, and a **interactive code** (created using StoryBook).
+
 ## Folder structure
 
 ```
@@ -21,6 +27,12 @@ React-Hooks
 │   ...
 │
 └───src
+│   │
+│   └───(custom) hooks
+│   |   │   
+│   |   │   
+│   |   └───(n custom hooks examples)
+|   |
 │   │   App.js
 │   │   index.js
 │   │
