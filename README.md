@@ -27,15 +27,14 @@ React-Hooks
 │   ...
 │
 └───src
+|   |
+│   │   App.js
+│   │   index.js
 │   │
 │   └───(custom) hooks
 │   |   │   
 │   |   │   
 │   |   └───(n custom hooks examples)
-|   |
-│   │   App.js
-│   │   index.js
-│   │
 │   └───components
 │       │   
 │       │   
