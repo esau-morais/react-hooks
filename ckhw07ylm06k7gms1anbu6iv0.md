@@ -26,4 +26,12 @@ If you are like me and read all day, documentation it's one of the best ways to 
 
 #### [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI)
 
-If you want to code while watching, this is for you! The Net Ninja is one of the best YouTube channels for learning more about this developing world, and for sure, TypeScript.
+To finish, if you want to code while watching, this is for you! The Net Ninja is one of the best YouTube channels for learning more about this developing world, and for sure, TypeScript.
+
+---
+
+
+![<EM /> | Python and Front-End Developer](https://cdn.hashnode.com/res/hashnode/image/upload/v1606224204917/w_I2VNEJv.png)
+
+Thank you for reading this article! And if you want to be updated with the best content, **subscribe** to my **newsletter** and see you in the next one.
+
