@@ -1,6 +1,6 @@
 ## TypeScript: The Best Resources to Learn It
 
-A few months ago, after a long time studying and reviewing every single subject in (Vanilla) JavaScript and React.js, I decided to learn TypeScript. But, one of the most difficulties as a developer is to decide how to and where to learn it, since we have a lot of resources in the world and don't know which one is better. So, in this article, I'll show you at least **4 sources to learn TypeScript** divided by different ways of learning and don't waste time searching.
+A few months ago, after a long time studying and reviewing every single subject in (Vanilla) JavaScript and React.js, I decided to learn TypeScript. But, one of the most difficulties as a developer is to decide how and where to learn it, since we have a lot of resources in the world and don't know which one is better. So, in this article, I'll show you **6 sources to learn TypeScript** divided by different ways of learning and don't waste time searching.
 
 ## Interact
 
